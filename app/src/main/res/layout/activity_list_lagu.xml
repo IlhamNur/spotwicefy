@@ -46,14 +46,16 @@
                         android:layout_gravity="center"
                         android:layout_marginStart="20dp"
                         android:src="@drawable/ic_search"
-                        android:tint="@color/colorAccent" />
+                        android:tint="#4d88ca" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginStart="20dp"
-                        android:text="Search any song"
+                        android:fontFamily="@font/abril_fatface"
+                        android:text="Search twice song"
+                        android:textColor="#4d88ca"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -69,7 +71,10 @@
                     android:id="@+id/rvListMusic"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="5dp" />
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp" />
 
             </RelativeLayout>
 
